@@ -1,0 +1,10 @@
+^C:\USERS\JD\DOWNLOADS\MANTRANA\BUILD\CMAKEFILES\1A3D7459886E56D8FE31BF3F9C4BF020\GENERATE.STAMP.RULE
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/JD/Downloads/mantrana -BC:/Users/JD/Downloads/mantrana/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JD/Downloads/mantrana/build/mantrana.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

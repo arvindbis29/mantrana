@@ -1,0 +1,6 @@
+C:/Users/JD/Downloads/mantrana/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JD/Downloads/mantrana/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/JD/Downloads/mantrana/build/Server/CMakeFiles/mantrana_server.dir
+C:/Users/JD/Downloads/mantrana/build/Server/CMakeFiles/ALL_BUILD.dir
+C:/Users/JD/Downloads/mantrana/build/Client/CMakeFiles/mantrana_client.dir
+C:/Users/JD/Downloads/mantrana/build/Client/CMakeFiles/ALL_BUILD.dir

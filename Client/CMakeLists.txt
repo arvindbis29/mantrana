@@ -1,7 +1,9 @@
 project (mantrana_client)
 
 set (CMAKE_CXX_STANDARD 14)
-
+set(CMAKE_AUTOUIC_SEARCH_PATHS)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 find_package (
     Qt5
     HINTS "$ENV{QTDIR}"

@@ -1,11 +1,19 @@
 #include <QCoreApplication>
-#include <QDebug>
+#include <QtWebSockets/QWebSocket>
+#include <QtWebSockets/QWebSocketServer>
+#include <QResource>
+
+#include "Config.h"
+#include "ChatWebSocketListener.h"
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
+    QCoreApplication application(argc, argv);
 
-    qInfo() << "This will be the server";
+    auto *config = new Config("config/server.json");
 
-    return a.exec();
+    auto *listener = new ChatWebSocketListener(config);
+    listener->start();
+
+    return QCoreApplication::exec();
 }

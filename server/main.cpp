@@ -1,7 +1,4 @@
 #include <QCoreApplication>
-#include <QtWebSockets/QWebSocket>
-#include <QtWebSockets/QWebSocketServer>
-#include <QResource>
 
 #include "Config.h"
 #include "ChatWebSocketListener.h"

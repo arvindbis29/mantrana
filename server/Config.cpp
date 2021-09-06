@@ -1,7 +1,6 @@
 #include "Config.h"
 
-Config::Config(QString name, QObject *parent)
-    : filename(std::move(name)), QObject(parent)
+Config::Config(QString name, QObject *parent): filename(std::move(name)), QObject(parent)
 {
     Config::load();
 }
@@ -25,7 +24,7 @@ void Config::load()
 {
     QFile loadFile(filename);
 
-    // If file cannot been opened - create it
+    // If file cannot be opened - create it
     if (!loadFile.open(QIODevice::ReadOnly)) {
         qWarning("Couldn't open config file. Generating new...");
         Config::save();

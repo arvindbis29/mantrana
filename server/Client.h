@@ -8,7 +8,7 @@
 /**
  * @brief Basic client class
  */
-struct Client: public QObject
+class Client: public QObject
 {
 Q_OBJECT
 
@@ -65,6 +65,5 @@ private:
     QWebSocket *socket;             ///< Connection
     QString name;                   ///< Client name
     MessageHandler *messageHandler; ///< Message transport
-
     bool loginStatus = false;       ///< Auth status
 };

@@ -1,4 +1,4 @@
-#include <QCoreApplication>
+#include <QCoreApplication>//non GUI applications
 #include <QtWebSockets/QWebSocket>
 #include <QtWebSockets/QWebSocketServer>
 #include <QResource>

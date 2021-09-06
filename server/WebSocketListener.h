@@ -28,7 +28,7 @@ public:
     {}
 
     /**
-     * @brief Start the websocker server
+     * @brief Start the websocket server
      */
     virtual void start();
 

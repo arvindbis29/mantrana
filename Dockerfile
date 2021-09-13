@@ -16,8 +16,8 @@ RUN apk add --no-cache build-base \
                        qt5-qtbase-dev \
                        qt5-qtwebsockets-dev && \
     cmake -H. -B build && \
-    cmake --build build --target qt_chat_server && \
-    mv build/Server/qt_chat_server /home/qt_chat/qt_chat_server && \
+    cmake --build build --target mantrana_server && \
+    mv build/Server/mantrana_server /home/mantrana/mantrana_server && \
     apk del --no-cache build-base \
                        g++ \
                        gcc \

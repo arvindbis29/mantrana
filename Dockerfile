@@ -1,7 +1,7 @@
 FROM alpine:3.9
 
-RUN addgroup -S qt_chat && \
-        adduser -S qt_chat -G qt_chat
+RUN addgroup -S mantrana && \
+        adduser -S mantrana -G mantrana
 
 RUN apk update && \
     apk add --no-cache qt5-qtbase \
@@ -26,7 +26,7 @@ RUN apk add --no-cache build-base \
                        qt5-qtwebsockets-dev && \
     rm -rf /tmp/compile
 
-WORKDIR /home/qt_chat
-USER qt_chat
-VOLUME /home/qt_chat/config
-ENTRYPOINT ./qt_chat_server
+WORKDIR /home/mantrana
+USER mantrana
+VOLUME /home/mantrana/config
+ENTRYPOINT ./mantrana_server

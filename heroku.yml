@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: Dockerfile
-run:
-  web: docker run --rm -itd -p 8880:${PORT} -v $(pwd)/config:/home/mantrana/config -u $(id -u):$(id -g) mantrana

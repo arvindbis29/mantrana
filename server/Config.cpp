@@ -3,6 +3,15 @@
 Config::Config(QString name, QObject *parent): filename(std::move(name)), QObject(parent)
 {
     Config::load();
+
+    const char* port = qgetenv("PORT").data();
+
+    std::stringstream s(port);
+
+    unsigned int port_quint16;
+    s >> port_quint16;
+
+    webSocketPort = static_cast<unsigned short>(port_quint16);
 }
 
 QJsonObject Config::toJson() const

@@ -4,6 +4,8 @@
 #include <QFile>
 #include <QJsonDocument>
 
+#include <sstream>
+
 /**
  * @brief Config class
  */

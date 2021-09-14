@@ -15,7 +15,7 @@ RUN apk add --no-cache build-base \
                        cmake \
                        qt5-qtbase-dev \
                        qt5-qtwebsockets-dev && \
-    cmake -H. -B build && \
+    cmake . -B build && \
     cmake --build build --target mantrana_server && \
     mv build/server/mantrana_server /home/mantrana/mantrana_server && \
     apk del --no-cache build-base \

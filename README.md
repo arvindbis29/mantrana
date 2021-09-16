@@ -27,13 +27,3 @@ cmake --build <build-directory>
 
 This will create binaries in cmake build directory
 
-### Docker (For server)
-
-```
-docker build . --tag mantrana
-docker run --rm -itd -p 8880:8880 \
-                     -v $(pwd)/config:/home/mantrana/config \
-                     -u $(id -u):$(id -g) \
-                     mantrana
-
-```

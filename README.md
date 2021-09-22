@@ -6,7 +6,7 @@ Cross platform GUI desktop chat application made with QT
 ### Dependencies
 * Qt5 base and websocket packages
 * Cmake version >= 3.5
-* (OPTIONALLY) Ninja
+* (Optionally) Ninja
 
 ### Instructions
 

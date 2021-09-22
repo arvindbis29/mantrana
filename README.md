@@ -4,25 +4,27 @@ Cross platform GUI desktop chat application made with QT
 ## Build
 
 ### Dependencies
-* Qt5 with base and websocket packages
-* cmake version >= 3.5
+* Qt5 base and websocket packages
+* Cmake version >= 3.5
+* (OPTIONALLY) Ninja
 
-### Windows
+### Instructions
 
-You may need to set path to point to Qt5's msvc build tools's bin directory.
+Make sure you have a C++ compiler and cmake can find QT5 config files.
 
+#### Using Cmake
 ```
-cd <source-directory>
 cmake . -B <build-directory>
-cmake --build <build-directory>
+cmake --build <build-directory> -j <jobs>
 ```
 
-### Linux
+The no. of jobs can be set according to your processor's no. of cores for faster builds.
 
+#### Using Cmake + Ninja
 ```
-cd <source-directory>
-cmake . -B <build-directory>
-cmake --build <build-directory>
+cmake . -G Ninja -B <build-directory>
+cd <build-directory>
+ninja
 ```
 
 This will create binaries in cmake build directory

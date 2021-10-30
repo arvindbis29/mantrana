@@ -18,14 +18,21 @@ cmake . -B <build-directory>
 cmake --build <build-directory> -j <jobs>
 ```
 
-The no. of jobs can be set according to your processor's no. of cores for faster builds.
+The number of jobs can be set in accordance with your cpu cores or can be ignored.
 
 #### Using Cmake + Ninja
 ```
-cmake . -G Ninja -B <build-directory>
+cmake . -B <build-directory> -G Ninja
 cd <build-directory>
 ninja
 ```
 
-This will create binaries in cmake build directory
+#### Docker for server
 
+```
+docker build . --tag mantrana
+docker run --rm -itd -p 8880:8880 \
+                     -v $(pwd)/config:/home/mantrana/config \
+                     -u $(id -u):$(id -g) \
+                     mantrana
+```

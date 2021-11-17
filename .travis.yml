@@ -23,9 +23,11 @@ matrix:
 script:
   - sudo ln -s /usr/bin/g++-10 /usr/local/bin/g++
   - sudo ln -s /usr/bin/gcc-10 /usr/local/bin/gcc
-  - echo "Compile"
+  - echo "Compilation"
   - mkdir -p build
-  - cmake . -B build
-  - cmake --build build
-  - echo "Docker"
+  - cd build
+  - cmake ..
+  - cmake --build .
+  - cd ..
+  - echo "Docker image"
   - docker build .

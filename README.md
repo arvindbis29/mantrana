@@ -1,5 +1,5 @@
 # Mantrana
-[![Build Status](https://app.travis-ci.com/jatindalal/mantrana.svg?branch=main)](https://travis-ci.com/jatindalal/mantrana)
+[![Build Status](https://app.travis-ci.com/jatindalal/mantrana.svg?branch=main)](https://app.travis-ci.com/jatindalal/mantrana)
 
 Cross platform GUI desktop chat application made with QT
 

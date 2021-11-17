@@ -1,0 +1,30 @@
+language: cpp
+
+services:
+  - docker
+
+matrix:
+  include:
+    - os: linux
+      dist: bionic
+      sudo: true
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+              - ubuntu-toolchain-r-test
+            packages:
+              - g++-10
+              - gcc-10
+              - cmake
+              - qtbase5-dev
+              - libqt5websockets5-dev
+
+script:
+  - sudo ln -s /usr/bin/g++-10 /usr/local/bin/g++
+  - sudo ln -s /usr/bin/gcc-10 /usr/local/bin/gcc
+  - echo "Compile"
+  - cmake . -B build
+  - cmake --build build
+  - echo "Docker"
+  - docker build .

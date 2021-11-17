@@ -29,8 +29,9 @@ ChatWindow::~ChatWindow()
 
 void ChatWindow::insertMessage(const QString &message) const
 {
-    static const QString tagBegin = "<div style=\"-qt-block-indent:0;padding-top:20px; padding-bottom:20px;margin-top:20px;\"><span style=\" text-indent:15px;background-color:#00ff9d; padding-left:50px; padding-right:50px\">";
-    static const QString tagEnd = "</span></div>";
+    static const QString tagBegin = "<p style=\"margin-top:0px; margin-bottom:0px; margin-left:0px;"
+                                    "margin-right:0px; -qt-block-indent:0; text-indent:0px;\">";
+    static const QString tagEnd = "</p>";
 
     auto *browser = QWidget::findChild<QTextBrowser *>("messages");     ///< Messages
     if (browser->toPlainText().isEmpty()) {

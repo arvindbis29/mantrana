@@ -12,13 +12,13 @@ matrix:
       addons:
         apt:
           sources:
-              - ubuntu-toolchain-r-test
-            packages:
-              - g++-10
-              - gcc-10
-              - cmake
-              - qtbase5-dev
-              - libqt5websockets5-dev
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-10
+            - gcc-10
+            - cmake
+            - qtbase5-dev
+            - libqt5websockets5-dev
 
 script:
   - sudo ln -s /usr/bin/g++-10 /usr/local/bin/g++

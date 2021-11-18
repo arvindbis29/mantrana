@@ -1,0 +1,210 @@
+.TH "ChatWebSocketListener" 3 "Thu Nov 18 2021" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ChatWebSocketListener \- Chat websocket listener\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ChatWebSocketListener\&.h>\fP
+.PP
+Inherits \fBWebSocketListener\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBMessageType\fP { \fBMessageDefault\fP = 0, \fBMessageConnect\fP, \fBMessageDisconnect\fP, \fBMessageAvailable\fP }"
+.br
+.ti -1c
+.RI "enum \fBErrorType\fP { \fBErrorClientExists\fP = 1, \fBErrorNameIncorrect\fP, \fBErrorMessageIncorrect\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBChatWebSocketListener\fP (const \fBConfig\fP *config, QObject *parent=nullptr)"
+.br
+.RI "Default constructor\&. "
+.ti -1c
+.RI "QStringList \fBgetAvailableClientNames\fP () const"
+.br
+.RI "get logged in client names "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBcheckNameChar\fP (const QChar &c)"
+.br
+.RI "Checks char\&. "
+.ti -1c
+.RI "static bool \fBcheckName\fP (const QString &name)"
+.br
+.RI "Is name correct (size between 1 and 16, some char checks) "
+.ti -1c
+.RI "static bool \fBcheckMessage\fP (const QString &message)"
+.br
+.RI "Checks message\&. "
+.in -1c
+.SS "Protected Types"
+
+.in +1c
+.ti -1c
+.RI "using \fBRegisteredSlotType\fP = void(ChatWebSocketListener::*)(\fBClient\fP *client, const QJsonObject &)"
+.br
+.RI "Slot method signature\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBonDisconnect\fP () override"
+.br
+.ti -1c
+.RI "\fBClient\fP * \fBonConnect\fP () override"
+.br
+.ti -1c
+.RI "void \fBonMessageLogin\fP (\fBClient\fP *client, const QJsonObject &data)"
+.br
+.ti -1c
+.RI "void \fBonMessageMessage\fP (\fBClient\fP *client, const QJsonObject &data)"
+.br
+.ti -1c
+.RI "void \fBsendError\fP (\fBClient\fP *client, qint64 errorId, const QString &errorText, bool disconnect=true)"
+.br
+.ti -1c
+.RI "virtual void \fBonMessage\fP (const QString &message)"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Chat websocket listener\&. 
+.SH "Member Typedef Documentation"
+.PP 
+.SS "using \fBChatWebSocketListener::RegisteredSlotType\fP =  void (ChatWebSocketListener::*)(\fBClient\fP *client, const QJsonObject &)\fC [protected]\fP"
+
+.PP
+Slot method signature\&. 
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBChatWebSocketListener::ErrorType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIErrorClientExists \fP\fP
+.TP
+\fB\fIErrorNameIncorrect \fP\fP
+.TP
+\fB\fIErrorMessageIncorrect \fP\fP
+.SS "enum \fBChatWebSocketListener::MessageType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIMessageDefault \fP\fP
+.TP
+\fB\fIMessageConnect \fP\fP
+.TP
+\fB\fIMessageDisconnect \fP\fP
+.TP
+\fB\fIMessageAvailable \fP\fP
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ChatWebSocketListener::ChatWebSocketListener (const \fBConfig\fP * config, QObject * parent = \fCnullptr\fP)\fC [explicit]\fP"
+
+.PP
+Default constructor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIconfig\fP Configuration object 
+.br
+\fIparent\fP QT parent 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool ChatWebSocketListener::checkMessage (const QString & message)\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Checks message\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImessage\fP Message string 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true, if message size is between 0 and 1024 
+.RE
+.PP
+
+.SS "static bool ChatWebSocketListener::checkName (const QString & name)\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Is name correct (size between 1 and 16, some char checks) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true, if name is correct 
+.RE
+.PP
+
+.SS "static bool ChatWebSocketListener::checkNameChar (const QChar & c)\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Checks char\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true, if char is from [A-Za-z0-9_] 
+.RE
+.PP
+
+.SS "QStringList ChatWebSocketListener::getAvailableClientNames () const"
+
+.PP
+get logged in client names 
+.PP
+\fBReturns\fP
+.RS 4
+List of names 
+.RE
+.PP
+
+.SS "\fBClient\fP * ChatWebSocketListener::onConnect ()\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBWebSocketListener\fP\&.
+.SS "void ChatWebSocketListener::onDisconnect ()\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBWebSocketListener\fP\&.
+.SS "void WebSocketListener::onMessage (const QString & message)\fC [protected]\fP, \fC [virtual]\fP"
+< \fBConnection\fP
+.PP
+Reimplemented from \fBWebSocketListener\fP\&.
+.SS "void ChatWebSocketListener::onMessageLogin (\fBClient\fP * client, const QJsonObject & data)\fC [protected]\fP"
+< \fBClient\fP name
+.SS "void ChatWebSocketListener::onMessageMessage (\fBClient\fP * client, const QJsonObject & data)\fC [protected]\fP"
+
+.SS "void ChatWebSocketListener::sendError (\fBClient\fP * client, qint64 errorId, const QString & errorText, bool disconnect = \fCtrue\fP)\fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

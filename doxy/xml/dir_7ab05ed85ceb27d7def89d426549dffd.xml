@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_7ab05ed85ceb27d7def89d426549dffd" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen</compoundname>
+    <innerdir refid="dir_1e7f1fd78f757ab1ae7c915d316d3fcf">/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/4SSI3YASRV</innerdir>
+    <innerdir refid="dir_9c3ec549f468092e41501ca1e10078a1">/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW</innerdir>
+    <innerfile refid="server_2mantrana__server__autogen_2moc__predefs_8h">moc_predefs.h</innerfile>
+    <innerfile refid="server_2mantrana__server__autogen_2mocs__compilation_8cpp">mocs_compilation.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/"/>
+  </compounddef>
+</doxygen>

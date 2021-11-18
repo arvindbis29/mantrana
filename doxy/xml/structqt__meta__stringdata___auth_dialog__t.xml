@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structqt__meta__stringdata___auth_dialog__t" kind="struct" language="C++" prot="public">
+    <compoundname>qt_meta_stringdata_AuthDialog_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structqt__meta__stringdata___auth_dialog__t_1ad3a0b2f438aed3d037a4ee96aeb06b4b" prot="public" static="no" mutable="no">
+        <type>QByteArrayData</type>
+        <definition>QByteArrayData qt_meta_stringdata_AuthDialog_t::data[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" line="25" column="20" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structqt__meta__stringdata___auth_dialog__t_1ada3c5b448aeb54b7e6bab025da5f8528" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char qt_meta_stringdata_AuthDialog_t::stringdata0[19]</definition>
+        <argsstring>[19]</argsstring>
+        <name>stringdata0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" line="26" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" line="24" column="1" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structqt__meta__stringdata___auth_dialog__t_1ad3a0b2f438aed3d037a4ee96aeb06b4b" prot="public" virt="non-virtual"><scope>qt_meta_stringdata_AuthDialog_t</scope><name>data</name></member>
+      <member refid="structqt__meta__stringdata___auth_dialog__t_1ada3c5b448aeb54b7e6bab025da5f8528" prot="public" virt="non-virtual"><scope>qt_meta_stringdata_AuthDialog_t</scope><name>stringdata0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

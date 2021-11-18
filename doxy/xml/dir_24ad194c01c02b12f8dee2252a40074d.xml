@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_24ad194c01c02b12f8dee2252a40074d" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/client/CMakeFiles/mantrana_client.dir</compoundname>
+    <innerdir refid="dir_ea2c0d4d33132572136d132b107488ea">/home/arvindbis29/Desktop/src/mantrana/build/client/CMakeFiles/mantrana_client.dir/mantrana_client_autogen</innerdir>
+    <innerfile refid="_auth_dialog_8cpp_8o_8d">AuthDialog.cpp.o.d</innerfile>
+    <innerfile refid="_chat_connection_8cpp_8o_8d">ChatConnection.cpp.o.d</innerfile>
+    <innerfile refid="_chat_window_8cpp_8o_8d">ChatWindow.cpp.o.d</innerfile>
+    <innerfile refid="_connection_8cpp_8o_8d">Connection.cpp.o.d</innerfile>
+    <innerfile refid="client_2_c_make_files_2mantrana__client_8dir_2main_8cpp_8o_8d">main.cpp.o.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/CMakeFiles/mantrana_client.dir/"/>
+  </compounddef>
+</doxygen>

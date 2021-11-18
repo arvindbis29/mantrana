@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_config_8h" kind="file" language="C++">
+    <compoundname>Config.h</compoundname>
+    <includes local="no">QJsonObject</includes>
+    <includes local="no">QFile</includes>
+    <includes local="no">QJsonDocument</includes>
+    <includes local="no">sstream</includes>
+    <includedby refid="moc___config_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp</includedby>
+    <includedby refid="_config_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/Config.cpp</includedby>
+    <includedby refid="_web_socket_listener_8h" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.h</includedby>
+    <includedby refid="server_2main_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/main.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/Config.h</label>
+        <link refid="_config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QFile</label>
+      </node>
+      <node id="4">
+        <label>QJsonDocument</label>
+      </node>
+      <node id="2">
+        <label>QJsonObject</label>
+      </node>
+      <node id="5">
+        <label>sstream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_ChatWebSocketListener.cpp</label>
+        <link refid="moc___chat_web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp</label>
+        <link refid="moc___config_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_WebSocketListener.cpp</label>
+        <link refid="moc___web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/mocs_compilation.cpp</label>
+        <link refid="server_2mantrana__server__autogen_2mocs__compilation_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.cpp</label>
+        <link refid="_chat_web_socket_listener_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h</label>
+        <link refid="_chat_web_socket_listener_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/Config.cpp</label>
+        <link refid="_config_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/Config.h</label>
+        <link refid="_config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.cpp</label>
+        <link refid="_web_socket_listener_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.h</label>
+        <link refid="_web_socket_listener_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/main.cpp</label>
+        <link refid="server_2main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_config" prot="public">Config</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QJsonObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFile&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QJsonDocument&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_config" kindref="compound">Config</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_config_1a74304f5586eda75f390c1a5adb7486a5" kindref="member">Config</ref>(QString<sp/>name,<sp/>QObject<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_config_1aa6cb44ad561b4d2bf1e835e8b9418e04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_config_1aa6cb44ad561b4d2bf1e835e8b9418e04" kindref="member">getFilename</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Config::filename;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_config_1a0e254ad02c59601298d6b9ee4b16ea21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>quint16<sp/><ref refid="class_config_1a0e254ad02c59601298d6b9ee4b16ea21" kindref="member">getWebSocketPort</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Config::webSocketPort;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_config_1a6735a03427def7b047c8b9305373d6b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_config_1a6735a03427def7b047c8b9305373d6b5" kindref="member">getIp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="34"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Config::ip;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>filename;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>quint16<sp/>webSocketPort<sp/>=<sp/>8880;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>ip<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0.0.0.0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>load();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>save()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QJsonObject<sp/>toJson()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fromJson(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QJsonObject<sp/>&amp;json);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/Config.h"/>
+  </compounddef>
+</doxygen>

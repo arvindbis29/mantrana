@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_3d7c6a81b0687de8e29945679d57899a" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/client</compoundname>
+    <innerdir refid="dir_457db610ff5bf17abf4c0b341ed32b2d">/home/arvindbis29/Desktop/src/mantrana/build/client/CMakeFiles</innerdir>
+    <innerdir refid="dir_57096d11c8fac79f93ee91ea9e7b39dc">/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/"/>
+  </compounddef>
+</doxygen>

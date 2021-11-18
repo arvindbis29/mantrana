@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="server_2mantrana__server__autogen_2mocs__compilation_8cpp" kind="file" language="C++">
+    <compoundname>mocs_compilation.cpp</compoundname>
+    <includes refid="moc___chat_web_socket_listener_8cpp" local="yes">EWIEGA46WW/moc_ChatWebSocketListener.cpp</includes>
+    <includes refid="moc___client_8cpp" local="yes">EWIEGA46WW/moc_Client.cpp</includes>
+    <includes refid="moc___config_8cpp" local="yes">EWIEGA46WW/moc_Config.cpp</includes>
+    <includes refid="moc___message_handler_8cpp" local="yes">EWIEGA46WW/moc_MessageHandler.cpp</includes>
+    <includes refid="moc___web_socket_listener_8cpp" local="yes">EWIEGA46WW/moc_WebSocketListener.cpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>EWIEGA46WW/moc_ChatWebSocketListener.cpp</label>
+        <link refid="moc___chat_web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>EWIEGA46WW/moc_Client.cpp</label>
+        <link refid="moc___client_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>EWIEGA46WW/moc_Config.cpp</label>
+        <link refid="moc___config_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>EWIEGA46WW/moc_MessageHandler.cpp</label>
+        <link refid="moc___message_handler_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>EWIEGA46WW/moc_WebSocketListener.cpp</label>
+        <link refid="moc___web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/mocs_compilation.cpp</label>
+        <link refid="server_2mantrana__server__autogen_2mocs__compilation_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>../../../../server/ChatWebSocketListener.h</label>
+        <link refid="_chat_web_socket_listener_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Client.h</label>
+        <link refid="_client_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Config.h</label>
+        <link refid="_config_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MessageHandler.h</label>
+        <link refid="_message_handler_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WebSocketListener.h</label>
+        <link refid="_web_socket_listener_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>QArgument</label>
+      </node>
+      <node id="12">
+        <label>QFile</label>
+      </node>
+      <node id="13">
+        <label>QJsonDocument</label>
+      </node>
+      <node id="11">
+        <label>QJsonObject</label>
+      </node>
+      <node id="7">
+        <label>QObject</label>
+      </node>
+      <node id="6">
+        <label>QSet</label>
+      </node>
+      <node id="16">
+        <label>QString</label>
+      </node>
+      <node id="19">
+        <label>QtCore/qbytearray.h</label>
+      </node>
+      <node id="20">
+        <label>QtCore/qmetatype.h</label>
+      </node>
+      <node id="8">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+      <node id="9">
+        <label>QtWebSockets/QWebSocketServer</label>
+      </node>
+      <node id="3">
+        <label>memory</label>
+      </node>
+      <node id="14">
+        <label>sstream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>autogenerated.<sp/>Changes<sp/>will<sp/>be<sp/>overwritten.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moc___chat_web_socket_listener_8cpp" kindref="compound">EWIEGA46WW/moc_ChatWebSocketListener.cpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moc___client_8cpp" kindref="compound">EWIEGA46WW/moc_Client.cpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moc___config_8cpp" kindref="compound">EWIEGA46WW/moc_Config.cpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moc___message_handler_8cpp" kindref="compound">EWIEGA46WW/moc_MessageHandler.cpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moc___web_socket_listener_8cpp" kindref="compound">EWIEGA46WW/moc_WebSocketListener.cpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/mocs_compilation.cpp"/>
+  </compounddef>
+</doxygen>

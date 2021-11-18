@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_web_socket_listener_8h" kind="file" language="C++">
+    <compoundname>WebSocketListener.h</compoundname>
+    <includes local="no">QSet</includes>
+    <includes local="no">QObject</includes>
+    <includes local="no">QtWebSockets/QWebSocket</includes>
+    <includes local="no">QtWebSockets/QWebSocketServer</includes>
+    <includes refid="_config_8h" local="yes">Config.h</includes>
+    <includes refid="_client_8h" local="yes">Client.h</includes>
+    <includedby refid="moc___web_socket_listener_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_WebSocketListener.cpp</includedby>
+    <includedby refid="_chat_web_socket_listener_8h" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h</includedby>
+    <includedby refid="_web_socket_listener_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.cpp</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>Client.h</label>
+        <link refid="_client_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Config.h</label>
+        <link refid="_config_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MessageHandler.h</label>
+        <link refid="_message_handler_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.h</label>
+        <link refid="_web_socket_listener_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>QArgument</label>
+      </node>
+      <node id="8">
+        <label>QFile</label>
+      </node>
+      <node id="9">
+        <label>QJsonDocument</label>
+      </node>
+      <node id="7">
+        <label>QJsonObject</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="2">
+        <label>QSet</label>
+      </node>
+      <node id="12">
+        <label>QString</label>
+      </node>
+      <node id="4">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+      <node id="5">
+        <label>QtWebSockets/QWebSocketServer</label>
+      </node>
+      <node id="10">
+        <label>sstream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_ChatWebSocketListener.cpp</label>
+        <link refid="moc___chat_web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_WebSocketListener.cpp</label>
+        <link refid="moc___web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/mocs_compilation.cpp</label>
+        <link refid="server_2mantrana__server__autogen_2mocs__compilation_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.cpp</label>
+        <link refid="_chat_web_socket_listener_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h</label>
+        <link refid="_chat_web_socket_listener_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.cpp</label>
+        <link refid="_web_socket_listener_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.h</label>
+        <link refid="_web_socket_listener_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/main.cpp</label>
+        <link refid="server_2main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_web_socket_listener" prot="public">WebSocketListener</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSet&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWebSockets/QWebSocket&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWebSockets/QWebSocketServer&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_config_8h" kindref="compound">Config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_client_8h" kindref="compound">Client.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_web_socket_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_web_socket_listener" kindref="compound">WebSocketListener</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_web_socket_listener_1aeda864c8fe11715990daf4cb176990b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1aeda864c8fe11715990daf4cb176990b1" kindref="member">WebSocketListener</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_config" kindref="compound">Config</ref><sp/>*config,<sp/>QObject<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>config(config),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>websocketServer(new<sp/>QWebSocketServer(</highlight><highlight class="stringliteral">&quot;Chat&quot;</highlight><highlight class="normal">,<sp/>QWebSocketServer::NonSecureMode)),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject(parent)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1a00742efb9598447dd3f15038b204e906" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_web_socket_listener_1ae6f7ab95fab9b40f90e116180ebee7f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1ae6f7ab95fab9b40f90e116180ebee7f4" kindref="member">isSocketAvailable</ref>(QWebSocket<sp/>*socket)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="41"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>socket</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="class_web_socket_listener_1a6a5f6faea24543a1e9a2905d7decfb8c" kindref="member">WebSocketListener::clients</ref>.contains(socket)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="class_web_socket_listener_1a6a5f6faea24543a1e9a2905d7decfb8c" kindref="member">WebSocketListener::clients</ref>[socket]-&gt;isLogin();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_web_socket_listener_1a876a089916bf6fb6a08b6f3c63ef948c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_web_socket_listener_1a876a089916bf6fb6a08b6f3c63ef948c" kindref="member">~WebSocketListener</ref>()</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="48"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>WebSocketListener::websocketServer;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_client" kindref="compound">Client</ref><sp/>*<ref refid="class_web_socket_listener_1a95dd71d64198e8a6553daa766b3bb300" kindref="member">onConnect</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1abd964d2d863481e9a06803bb2a866c15" kindref="member">onMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;message);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1a0f3ca2ff2604c02b120a3b124f9177bc" kindref="member">onDisconnect</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1af04c4042c3b02254c142308daf2013e9" kindref="member">sendDataToAll</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QJsonObject<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_web_socket_listener_1af09d45d7c7a95ba5f5d4d50ee959994c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1af09d45d7c7a95ba5f5d4d50ee959994c" kindref="member">removeClient</ref>(<ref refid="class_client" kindref="compound">Client</ref><sp/>*client)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>client-&gt;<ref refid="class_client_1a1c991fd0e4b55b60501bff804d41314e" kindref="member">getSocket</ref>()-&gt;close();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_web_socket_listener_1a6a5f6faea24543a1e9a2905d7decfb8c" kindref="member">WebSocketListener::clients</ref>.remove(client-&gt;<ref refid="class_client_1a1c991fd0e4b55b60501bff804d41314e" kindref="member">getSocket</ref>());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>client;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_web_socket_listener_1a6a5f6faea24543a1e9a2905d7decfb8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QHash&lt;QWebSocket<sp/>*,<sp/>Client<sp/>*&gt;<sp/><ref refid="class_web_socket_listener_1a6a5f6faea24543a1e9a2905d7decfb8c" kindref="member">clients</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_config" kindref="compound">Config</ref><sp/>*config;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QWebSocketServer<sp/>*websocketServer<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/WebSocketListener.h"/>
+  </compounddef>
+</doxygen>

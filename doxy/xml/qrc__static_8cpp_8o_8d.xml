@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="qrc__static_8cpp_8o_8d" kind="file" language="D">
+    <compoundname>qrc_static.cpp.o.d</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">server/CMakeFiles/mantrana_server.dir/mantrana_server_autogen/4SSI3YASRV/qrc_static.cpp.o:<sp/>\</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/4SSI3YASRV/qrc_static.cpp<sp/>\</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/>/usr/include/stdc-predef.h</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/CMakeFiles/mantrana_server.dir/mantrana_server_autogen/4SSI3YASRV/qrc_static.cpp.o.d"/>
+  </compounddef>
+</doxygen>

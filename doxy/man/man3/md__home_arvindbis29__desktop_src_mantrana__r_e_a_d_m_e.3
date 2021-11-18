@@ -1,0 +1,48 @@
+.TH "md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e" 3 "Thu Nov 18 2021" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e \- Mantrana 
+\fC\fP
+.PP
+Cross platform GUI desktop chat application made with QT
+.SH "Build"
+.PP
+.SS "Dependencies"
+.IP "\(bu" 2
+Qt5 base and websocket packages
+.IP "\(bu" 2
+Cmake version >= 3\&.5
+.IP "\(bu" 2
+(Optionally) Ninja
+.PP
+.SS "Instructions"
+Make sure you have a C++ compiler and cmake can find QT5 config files\&.
+.SS "Using Cmake"
+.PP
+.nf
+cmake \&. -B <build-directory>
+cmake --build <build-directory> -j <jobs>
+.fi
+.PP
+.PP
+The number of jobs can be set in accordance with your cpu cores or can be ignored\&.
+.SS "Using Cmake + Ninja"
+.PP
+.nf
+cmake \&. -B <build-directory> -G Ninja
+cd <build-directory>
+ninja
+.fi
+.PP
+.SS "Docker for server"
+.PP
+.nf
+docker build \&. --tag mantrana
+docker run --rm -itd -p 8880:8880 \
+                     -v $(pwd)/config:/home/mantrana/config \
+                     -u $(id -u):$(id -g) \
+                     mantrana
+.fi
+.PP
+ 

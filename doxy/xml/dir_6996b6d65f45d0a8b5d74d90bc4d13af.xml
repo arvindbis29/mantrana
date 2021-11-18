@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_6996b6d65f45d0a8b5d74d90bc4d13af" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include</compoundname>
+    <innerfile refid="ui___auth_dialog_8h">ui_AuthDialog.h</innerfile>
+    <innerfile refid="ui___chat_window_8h">ui_ChatWindow.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structqt__meta__stringdata___config__t" kind="struct" language="C++" prot="public">
+    <compoundname>qt_meta_stringdata_Config_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structqt__meta__stringdata___config__t_1af3f97a24f397abcc957ed3ba5b7820f6" prot="public" static="no" mutable="no">
+        <type>QByteArrayData</type>
+        <definition>QByteArrayData qt_meta_stringdata_Config_t::data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" line="25" column="20" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structqt__meta__stringdata___config__t_1af81a79fba77bcf1aac474b0026585d9a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char qt_meta_stringdata_Config_t::stringdata0[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>stringdata0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" line="26" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" line="24" column="1" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_Config.cpp" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structqt__meta__stringdata___config__t_1af3f97a24f397abcc957ed3ba5b7820f6" prot="public" virt="non-virtual"><scope>qt_meta_stringdata_Config_t</scope><name>data</name></member>
+      <member refid="structqt__meta__stringdata___config__t_1af81a79fba77bcf1aac474b0026585d9a" prot="public" virt="non-virtual"><scope>qt_meta_stringdata_Config_t</scope><name>stringdata0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_auth_dialog_8h" kind="file" language="C++">
+    <compoundname>AuthDialog.h</compoundname>
+    <includes local="no">QDialog</includes>
+    <includes refid="_chat_connection_8h" local="yes">ChatConnection.h</includes>
+    <includedby refid="moc___auth_dialog_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp</includedby>
+    <includedby refid="_auth_dialog_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.cpp</includedby>
+    <includedby refid="client_2main_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/client/main.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.h</label>
+        <link refid="_auth_dialog_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ChatConnection.h</label>
+        <link refid="_chat_connection_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Connection.h</label>
+        <link refid="_connection_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QDialog</label>
+      </node>
+      <node id="5">
+        <label>QJsonObject</label>
+      </node>
+      <node id="4">
+        <label>QObject</label>
+      </node>
+      <node id="7">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp</label>
+        <link refid="moc___auth_dialog_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/mocs_compilation.cpp</label>
+        <link refid="client_2mantrana__client__autogen_2mocs__compilation_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.cpp</label>
+        <link refid="_auth_dialog_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.h</label>
+        <link refid="_auth_dialog_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/main.cpp</label>
+        <link refid="client_2main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_auth_dialog" prot="public">AuthDialog</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_chat_connection_8h" kindref="compound">ChatConnection.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_auth_dialog" kindref="compound">AuthDialog</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_auth_dialog" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_auth_dialog" kindref="compound">AuthDialog</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_auth_dialog_1ae534535d93a78c661a71241aed55926f" kindref="member">AuthDialog</ref>(QWidget<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18" refid="class_auth_dialog_1ae0a446f309b452b4e6f3d807213c78df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_auth_dialog_1ae0a446f309b452b4e6f3d807213c78df" kindref="member">Q_DISABLE_COPY</ref>(<ref refid="class_auth_dialog" kindref="compound">AuthDialog</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_auth_dialog_1ab0ad6f6026e83aa40dcc6283b890e4fa" kindref="member">~AuthDialog</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_auth_dialog_1aa1cf1f71b3a9a5f9f62511c8d2c95fb9" kindref="member">accept</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>onTextChanged(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>onSuccess(<ref refid="class_chat_connection" kindref="compound">ChatConnection</ref><sp/>*connection);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>onFail(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;reason)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ui_1_1_auth_dialog" kindref="compound">Ui::AuthDialog</ref><sp/>*ui;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.h"/>
+  </compounddef>
+</doxygen>

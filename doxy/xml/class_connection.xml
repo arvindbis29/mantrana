@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_connection" kind="class" language="C++" prot="public">
+    <compoundname>Connection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_chat_connection" prot="public" virt="non-virtual">ChatConnection</derivedcompoundref>
+    <includes refid="_connection_8h" local="no">Connection.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_connection_1ad5345ca9feeb2ad52e31d60d89314061" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Connection::urlString</definition>
+        <argsstring></argsstring>
+        <name>urlString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="36" column="13" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_connection_1af5d1fc500545e9bf32a519906074e9f5" prot="private" static="no" mutable="no">
+        <type>QWebSocket *</type>
+        <definition>QWebSocket* Connection::socket</definition>
+        <argsstring></argsstring>
+        <name>socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="37" column="16" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_connection_1afb0318d9e362da6d2b418885a955f22a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Connection::Connection</definition>
+        <argsstring>(QString urlString, QObject *parent=nullptr)</argsstring>
+        <name>Connection</name>
+        <param>
+          <type>QString</type>
+          <declname>urlString</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="13" column="14" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_connection_1a47c25a31352a71e2a6902d37fc5fa2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Connection::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplementedby refid="class_chat_connection_1a47c25a31352a71e2a6902d37fc5fa2ba">start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="17" column="18" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.cpp" bodystart="3" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_connection_1a90fb987f44cec923035dfadfbf025dee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Connection::send</definition>
+        <argsstring>(const QString &amp;data)</argsstring>
+        <name>send</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="19" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_connection_1a7f2da292b13f5cd23f26bd18b050b2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Connection::~Connection</definition>
+        <argsstring>() override</argsstring>
+        <name>~Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="24" column="5" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_connection_1a423072ad72b1eb0c495a8be9a2d3c708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Connection::message</definition>
+        <argsstring>(const QString &amp;message)</argsstring>
+        <name>message</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="30" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp" bodystart="162" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_connection_1a415fb29d65e2883c4655d5bc41afeca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Connection::connected</definition>
+        <argsstring>()</argsstring>
+        <name>connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="31" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_connection_1a333c901acf943eafbdff0579878f5d02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Connection::disconnected</definition>
+        <argsstring>()</argsstring>
+        <name>disconnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="32" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_connection_1ae7f731bd68a842586e4c12050df9cf33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Connection::error</definition>
+        <argsstring>(const QString &amp;error)</argsstring>
+        <name>error</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="33" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp" bodystart="181" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic connection class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ChatConnection</label>
+        <link refid="class_chat_connection"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Connection</label>
+        <link refid="class_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Connection</label>
+        <link refid="class_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" line="8" column="1" bodyfile="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_connection_1a415fb29d65e2883c4655d5bc41afeca8" prot="public" virt="non-virtual"><scope>Connection</scope><name>connected</name></member>
+      <member refid="class_connection_1afb0318d9e362da6d2b418885a955f22a" prot="public" virt="non-virtual"><scope>Connection</scope><name>Connection</name></member>
+      <member refid="class_connection_1a333c901acf943eafbdff0579878f5d02" prot="public" virt="non-virtual"><scope>Connection</scope><name>disconnected</name></member>
+      <member refid="class_connection_1ae7f731bd68a842586e4c12050df9cf33" prot="public" virt="non-virtual"><scope>Connection</scope><name>error</name></member>
+      <member refid="class_connection_1a423072ad72b1eb0c495a8be9a2d3c708" prot="public" virt="non-virtual"><scope>Connection</scope><name>message</name></member>
+      <member refid="class_connection_1a90fb987f44cec923035dfadfbf025dee" prot="public" virt="non-virtual"><scope>Connection</scope><name>send</name></member>
+      <member refid="class_connection_1af5d1fc500545e9bf32a519906074e9f5" prot="private" virt="non-virtual"><scope>Connection</scope><name>socket</name></member>
+      <member refid="class_connection_1a47c25a31352a71e2a6902d37fc5fa2ba" prot="public" virt="virtual"><scope>Connection</scope><name>start</name></member>
+      <member refid="class_connection_1ad5345ca9feeb2ad52e31d60d89314061" prot="private" virt="non-virtual"><scope>Connection</scope><name>urlString</name></member>
+      <member refid="class_connection_1a7f2da292b13f5cd23f26bd18b050b2e9" prot="public" virt="non-virtual"><scope>Connection</scope><name>~Connection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

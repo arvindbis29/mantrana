@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_auth_dialog_8cpp" kind="file" language="C++">
+    <compoundname>AuthDialog.cpp</compoundname>
+    <includes local="no">QIcon</includes>
+    <includes local="no">QPushButton</includes>
+    <includes refid="_auth_dialog_8h" local="yes">AuthDialog.h</includes>
+    <includes refid="ui___auth_dialog_8h" local="yes">ui_AuthDialog.h</includes>
+    <includes refid="_chat_window_8h" local="yes">ChatWindow.h</includes>
+    <incdepgraph>
+      <node id="11">
+        <label>ui_AuthDialog.h</label>
+        <link refid="ui___auth_dialog_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.cpp</label>
+        <link refid="_auth_dialog_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AuthDialog.h</label>
+        <link refid="_auth_dialog_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ChatConnection.h</label>
+        <link refid="_chat_connection_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>ChatWindow.h</label>
+        <link refid="_chat_window_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Connection.h</label>
+        <link refid="_connection_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QDialog</label>
+      </node>
+      <node id="2">
+        <label>QIcon</label>
+      </node>
+      <node id="8">
+        <label>QJsonObject</label>
+      </node>
+      <node id="21">
+        <label>QMainWindow</label>
+      </node>
+      <node id="7">
+        <label>QObject</label>
+      </node>
+      <node id="3">
+        <label>QPushButton</label>
+      </node>
+      <node id="12">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="13">
+        <label>QtGui/QIcon</label>
+      </node>
+      <node id="10">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+      <node id="14">
+        <label>QtWidgets/QApplication</label>
+      </node>
+      <node id="15">
+        <label>QtWidgets/QDialog</label>
+      </node>
+      <node id="16">
+        <label>QtWidgets/QDialogButtonBox</label>
+      </node>
+      <node id="17">
+        <label>QtWidgets/QGroupBox</label>
+      </node>
+      <node id="18">
+        <label>QtWidgets/QLabel</label>
+      </node>
+      <node id="19">
+        <label>QtWidgets/QLineEdit</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;QIcon&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPushButton&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_auth_dialog_8h" kindref="compound">AuthDialog.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ui___auth_dialog_8h" kindref="compound">ui_AuthDialog.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_chat_window_8h" kindref="compound">ChatWindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="class_auth_dialog_1ae534535d93a78c661a71241aed55926f" kindref="member">AuthDialog::AuthDialog</ref>(QWidget<sp/>*parent)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="class_auth_dialog" kindref="compound">AuthDialog</ref>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setFixedSize(this-&gt;width(),<sp/>this-&gt;height());</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setWindowFlags(this-&gt;windowFlags()<sp/>&amp;<sp/>~Qt::WindowContextHelpButtonHint);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;findChild&lt;QLabel<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;error&quot;</highlight><highlight class="normal">)-&gt;hide();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;findChild&lt;QDialogButtonBox<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;buttonBox&quot;</highlight><highlight class="normal">)-&gt;button(QDialogButtonBox::Ok)-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*address<sp/>=<sp/>this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;address&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>address-&gt;setFocus();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(address,<sp/>&amp;QLineEdit::textChanged,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;AuthDialog::onTextChanged);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">),<sp/>&amp;QLineEdit::textChanged,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;AuthDialog::onTextChanged);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="class_auth_dialog_1ab0ad6f6026e83aa40dcc6283b890e4fa" kindref="member">AuthDialog::~AuthDialog</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_auth_dialog_1aa1cf1f71b3a9a5f9f62511c8d2c95fb9" kindref="member">AuthDialog::accept</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*buttonBox<sp/>=<sp/>qobject_cast&lt;QDialogButtonBox<sp/>*&gt;(sender());</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>buttonBox-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*address<sp/>=<sp/>this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;address&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*connection<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_chat_connection" kindref="compound">ChatConnection</ref>(</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address-&gt;text()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(connection,<sp/>&amp;<ref refid="class_chat_connection_1a5f94cd6f587b2e625983d08cff3aa95a" kindref="member">ChatConnection::login</ref>,<sp/>[</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>connection]()<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AuthDialog::onSuccess(connection);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(connection,<sp/>&amp;<ref refid="class_chat_connection_1a6641b06e4380f8d54d210f685a29b2b6" kindref="member">ChatConnection::fail</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;AuthDialog::onFail);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(connection,<sp/>&amp;<ref refid="class_chat_connection_1a6641b06e4380f8d54d210f685a29b2b6" kindref="member">ChatConnection::fail</ref>,<sp/>connection,<sp/>&amp;QObject::deleteLater);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>connection-&gt;start(</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QJsonObject{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/>name-&gt;text()},</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AuthDialog::onSuccess(<ref refid="class_chat_connection" kindref="compound">ChatConnection</ref><sp/>*connection)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*mainWindow<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_chat_window" kindref="compound">ChatWindow</ref>(connection);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow-&gt;show();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::accept();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AuthDialog::onFail(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;reason)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="66"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>error<sp/>=<sp/>this-&gt;findChild&lt;QLabel<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;error&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>error-&gt;setText(</highlight><highlight class="stringliteral">&quot;Failed:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>reason);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>error-&gt;show();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*buttonBox<sp/>=<sp/>this-&gt;findChild&lt;QDialogButtonBox<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;buttonBox&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>buttonBox-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AuthDialog::onTextChanged(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state<sp/>=</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!(this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;address&quot;</highlight><highlight class="normal">)-&gt;text().isEmpty()</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>this-&gt;findChild&lt;QLineEdit<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">)-&gt;text().isEmpty());</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;findChild&lt;QDialogButtonBox<sp/>*&gt;(</highlight><highlight class="stringliteral">&quot;buttonBox&quot;</highlight><highlight class="normal">)-&gt;button(QDialogButtonBox::Ok)-&gt;setEnabled(state);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.cpp"/>
+  </compounddef>
+</doxygen>

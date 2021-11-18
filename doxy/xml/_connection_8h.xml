@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_connection_8h" kind="file" language="C++">
+    <compoundname>Connection.h</compoundname>
+    <includes local="no">QtWebSockets/QWebSocket</includes>
+    <includedby refid="moc___connection_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp</includedby>
+    <includedby refid="_chat_connection_8h" local="yes">/home/arvindbis29/Desktop/src/mantrana/client/ChatConnection.h</includedby>
+    <includedby refid="_connection_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/client/Connection.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/Connection.h</label>
+        <link refid="_connection_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_AuthDialog.cpp</label>
+        <link refid="moc___auth_dialog_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_ChatConnection.cpp</label>
+        <link refid="moc___chat_connection_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_ChatWindow.cpp</label>
+        <link refid="moc___chat_window_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/moc_Connection.cpp</label>
+        <link refid="moc___connection_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/mocs_compilation.cpp</label>
+        <link refid="client_2mantrana__client__autogen_2mocs__compilation_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.cpp</label>
+        <link refid="_auth_dialog_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/AuthDialog.h</label>
+        <link refid="_auth_dialog_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/ChatConnection.cpp</label>
+        <link refid="_chat_connection_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/ChatConnection.h</label>
+        <link refid="_chat_connection_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/ChatWindow.cpp</label>
+        <link refid="_chat_window_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/ChatWindow.h</label>
+        <link refid="_chat_window_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/Connection.cpp</label>
+        <link refid="_connection_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/Connection.h</label>
+        <link refid="_connection_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/arvindbis29/Desktop/src/mantrana/client/main.cpp</label>
+        <link refid="client_2main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_connection" prot="public">Connection</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWebSockets/QWebSocket&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_connection" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_connection" kindref="compound">Connection</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13" refid="class_connection_1afb0318d9e362da6d2b418885a955f22a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_connection_1afb0318d9e362da6d2b418885a955f22a" kindref="member">Connection</ref>(QString<sp/>urlString,<sp/>QObject<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>urlString(std::move(urlString)),<sp/>QObject(parent),<sp/>socket(new<sp/>QWebSocket)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1a47c25a31352a71e2a6902d37fc5fa2ba" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_connection_1a90fb987f44cec923035dfadfbf025dee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1a90fb987f44cec923035dfadfbf025dee" kindref="member">send</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;data)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Connection::socket-&gt;sendTextMessage(data);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_connection_1a7f2da292b13f5cd23f26bd18b050b2e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_connection_1a7f2da292b13f5cd23f26bd18b050b2e9" kindref="member">~Connection</ref>()</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="25"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>Connection::socket;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1a423072ad72b1eb0c495a8be9a2d3c708" kindref="member">message</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_connection_1a423072ad72b1eb0c495a8be9a2d3c708" kindref="member">message</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1a415fb29d65e2883c4655d5bc41afeca8" kindref="member">connected</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1a333c901acf943eafbdff0579878f5d02" kindref="member">disconnected</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_connection_1ae7f731bd68a842586e4c12050df9cf33" kindref="member">error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_connection_1ae7f731bd68a842586e4c12050df9cf33" kindref="member">error</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>urlString;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>QWebSocket<sp/>*socket;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/client/Connection.h"/>
+  </compounddef>
+</doxygen>

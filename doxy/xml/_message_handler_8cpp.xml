@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_message_handler_8cpp" kind="file" language="C++">
+    <compoundname>MessageHandler.cpp</compoundname>
+    <includes refid="_message_handler_8h" local="yes">MessageHandler.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/MessageHandler.cpp</label>
+        <link refid="_message_handler_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MessageHandler.h</label>
+        <link refid="_message_handler_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QArgument</label>
+      </node>
+      <node id="7">
+        <label>QJsonDocument</label>
+      </node>
+      <node id="6">
+        <label>QJsonObject</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="4">
+        <label>QString</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_message_handler_8h" kindref="compound">MessageHandler.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="class_message_handler_1ad3b43ca875118c1bafa19f354678cbec" kindref="member">MessageHandler::MessageHandler</ref>(QObject<sp/>*parent)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QObject(parent)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_message_handler_1a6c9e292b19038256ed48e93013fc1b5c" kindref="member">MessageHandler::giveMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;message)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QJsonObject<sp/>json<sp/>=<sp/>QJsonDocument::fromJson(message.toUtf8()).object();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(json.contains(</highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal">)<sp/>&amp;&amp;<sp/>json.contains(</highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_message_handler_1ae1b94596fa5608b0e721a7b42025a223" kindref="member">onMessage</ref>(json[</highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal">].toString(),<sp/>json[</highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">].toObject());</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/MessageHandler.cpp"/>
+  </compounddef>
+</doxygen>

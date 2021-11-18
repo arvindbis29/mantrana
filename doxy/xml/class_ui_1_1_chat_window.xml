@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_ui_1_1_chat_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui::ChatWindow</compoundname>
+    <basecompoundref refid="class_ui___chat_window" prot="public" virt="non-virtual">Ui_ChatWindow</basecompoundref>
+    <includes refid="ui___chat_window_8h" local="no">ui_ChatWindow.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ui::ChatWindow</label>
+        <link refid="class_ui_1_1_chat_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_ChatWindow</label>
+        <link refid="class_ui___chat_window"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ui::ChatWindow</label>
+        <link refid="class_ui_1_1_chat_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_ChatWindow</label>
+        <link refid="class_ui___chat_window"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_ChatWindow.h" line="99" column="5" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_ChatWindow.h" bodystart="99" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_ui___chat_window_1abed989066b9e67f6761ea71591064825" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>centralWidget</name></member>
+      <member refid="class_ui___chat_window_1ac9024cfcd262715b797f2714bd429cf9" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>horizontalLayout</name></member>
+      <member refid="class_ui___chat_window_1a7dda0c99f08d39e145394a7e57d16002" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>message</name></member>
+      <member refid="class_ui___chat_window_1aebb48b867be1ea3103657c7209769e85" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>messages</name></member>
+      <member refid="class_ui___chat_window_1a4f5db6cdb1f358822ec07eba1788fc86" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___chat_window_1adb0399e6632b68870b28919a0be20f57" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>send</name></member>
+      <member refid="class_ui___chat_window_1ac148f964bf83fdc2a58bd3b170c63d07" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___chat_window_1ae2eb505b14a60c899c5bcf6ee8cd47ae" prot="public" virt="non-virtual"><scope>Ui::ChatWindow</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

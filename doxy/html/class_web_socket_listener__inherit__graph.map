@@ -1,0 +1,5 @@
+<map id="WebSocketListener" name="WebSocketListener">
+<area shape="rect" id="node1" title="Basic websocket listener." alt="" coords="20,80,165,107"/>
+<area shape="rect" id="node3" href="$class_chat_web_socket_listener.html" title="Chat websocket listener." alt="" coords="5,155,180,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="55,5,130,32"/>
+</map>

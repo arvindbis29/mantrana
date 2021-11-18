@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_client" kind="class" language="C++" prot="public">
+    <compoundname>Client</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_client_8h" local="no">Client.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1af543d3ba2f448dedab0c917c640337e5" prot="private" static="no" mutable="no">
+        <type>QWebSocket *</type>
+        <definition>QWebSocket* Client::socket</definition>
+        <argsstring></argsstring>
+        <name>socket</name>
+        <briefdescription>
+<para><ref refid="class_connection" kindref="compound">Connection</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="65" column="16" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1ab4c2a9544fdb3b950270ef57235440c1" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Client::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para><ref refid="class_client" kindref="compound">Client</ref> name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="66" column="13" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1a1586f15f7715b46ce47ac54e9fedf668" prot="private" static="no" mutable="no">
+        <type><ref refid="class_message_handler" kindref="compound">MessageHandler</ref> *</type>
+        <definition>MessageHandler* Client::messageHandler</definition>
+        <argsstring></argsstring>
+        <name>messageHandler</name>
+        <briefdescription>
+<para>Message transport. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="67" column="20" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1a0d999d42776362ed30c47c908cdbed0a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client::loginStatus</definition>
+        <argsstring></argsstring>
+        <name>loginStatus</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Auth status. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="68" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1ac1e784318023fafa41aa15c38c73491e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Client::Client</definition>
+        <argsstring>(QWebSocket *socket, QObject *parent=nullptr)</argsstring>
+        <name>Client</name>
+        <param>
+          <type>QWebSocket *</type>
+          <declname>socket</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Basic constructor from WS connection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>socket</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_connection" kindref="compound">Connection</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="20" column="14" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1abf66f3999d56384517656e9e952ee1ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client::sendData</definition>
+        <argsstring>(const QString &amp;type, const QJsonObject &amp;data)</argsstring>
+        <name>sendData</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QJsonObject &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Sends data to client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String type of sending data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sending data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="27" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.cpp" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1a1c991fd0e4b55b60501bff804d41314e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QWebSocket *</type>
+        <definition>QWebSocket * Client::getSocket</definition>
+        <argsstring>() const</argsstring>
+        <name>getSocket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="29" column="16" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1af54dc9ce42c8a48466ef401d5a652162" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; Client::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="34" column="19" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1a33bb406c2a9e22f34362c7d81fc62172" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_message_handler" kindref="compound">MessageHandler</ref> *</type>
+        <definition>MessageHandler * Client::getMessageHandler</definition>
+        <argsstring>() const</argsstring>
+        <name>getMessageHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="39" column="20" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1aa41e95941b60962e6ef9a2c77e09228f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Client::isLogin</definition>
+        <argsstring>() const</argsstring>
+        <name>isLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="44" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1aa3dbc2e64f39aa9b07c0def694842014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client::setName</definition>
+        <argsstring>(const QString &amp;clientName)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>clientName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="49" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1af259c6781f2966dac75bd42b03066b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client::setLogin</definition>
+        <argsstring>(bool login)</argsstring>
+        <name>setLogin</name>
+        <param>
+          <type>bool</type>
+          <declname>login</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="54" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1af96d672ca01fa070cc9489614dab4194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client::~Client</definition>
+        <argsstring>() override</argsstring>
+        <name>~Client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="59" column="5" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic client class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client</label>
+        <link refid="class_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client</label>
+        <link refid="class_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" line="11" column="1" bodyfile="/home/arvindbis29/Desktop/src/mantrana/server/Client.h" bodystart="12" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_client_1ac1e784318023fafa41aa15c38c73491e" prot="public" virt="non-virtual"><scope>Client</scope><name>Client</name></member>
+      <member refid="class_client_1a33bb406c2a9e22f34362c7d81fc62172" prot="public" virt="non-virtual"><scope>Client</scope><name>getMessageHandler</name></member>
+      <member refid="class_client_1af54dc9ce42c8a48466ef401d5a652162" prot="public" virt="non-virtual"><scope>Client</scope><name>getName</name></member>
+      <member refid="class_client_1a1c991fd0e4b55b60501bff804d41314e" prot="public" virt="non-virtual"><scope>Client</scope><name>getSocket</name></member>
+      <member refid="class_client_1aa41e95941b60962e6ef9a2c77e09228f" prot="public" virt="non-virtual"><scope>Client</scope><name>isLogin</name></member>
+      <member refid="class_client_1a0d999d42776362ed30c47c908cdbed0a" prot="private" virt="non-virtual"><scope>Client</scope><name>loginStatus</name></member>
+      <member refid="class_client_1a1586f15f7715b46ce47ac54e9fedf668" prot="private" virt="non-virtual"><scope>Client</scope><name>messageHandler</name></member>
+      <member refid="class_client_1ab4c2a9544fdb3b950270ef57235440c1" prot="private" virt="non-virtual"><scope>Client</scope><name>name</name></member>
+      <member refid="class_client_1abf66f3999d56384517656e9e952ee1ea" prot="public" virt="non-virtual"><scope>Client</scope><name>sendData</name></member>
+      <member refid="class_client_1af259c6781f2966dac75bd42b03066b05" prot="public" virt="non-virtual"><scope>Client</scope><name>setLogin</name></member>
+      <member refid="class_client_1aa3dbc2e64f39aa9b07c0def694842014" prot="public" virt="non-virtual"><scope>Client</scope><name>setName</name></member>
+      <member refid="class_client_1af543d3ba2f448dedab0c917c640337e5" prot="private" virt="non-virtual"><scope>Client</scope><name>socket</name></member>
+      <member refid="class_client_1af96d672ca01fa070cc9489614dab4194" prot="public" virt="non-virtual"><scope>Client</scope><name>~Client</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

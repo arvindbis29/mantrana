@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_a3b8abca6a49ea40e1a0cf0d93f91c18" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW</compoundname>
+    <innerfile refid="moc___auth_dialog_8cpp">moc_AuthDialog.cpp</innerfile>
+    <innerfile refid="moc___auth_dialog_8cpp_8d">moc_AuthDialog.cpp.d</innerfile>
+    <innerfile refid="moc___chat_connection_8cpp">moc_ChatConnection.cpp</innerfile>
+    <innerfile refid="moc___chat_connection_8cpp_8d">moc_ChatConnection.cpp.d</innerfile>
+    <innerfile refid="moc___chat_window_8cpp">moc_ChatWindow.cpp</innerfile>
+    <innerfile refid="moc___chat_window_8cpp_8d">moc_ChatWindow.cpp.d</innerfile>
+    <innerfile refid="moc___connection_8cpp">moc_Connection.cpp</innerfile>
+    <innerfile refid="moc___connection_8cpp_8d">moc_Connection.cpp.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/EWIEGA46WW/"/>
+  </compounddef>
+</doxygen>

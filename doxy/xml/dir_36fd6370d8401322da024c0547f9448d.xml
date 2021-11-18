@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_36fd6370d8401322da024c0547f9448d" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/server</compoundname>
+    <innerfile refid="_chat_web_socket_listener_8cpp">ChatWebSocketListener.cpp</innerfile>
+    <innerfile refid="_chat_web_socket_listener_8h">ChatWebSocketListener.h</innerfile>
+    <innerfile refid="_client_8cpp">Client.cpp</innerfile>
+    <innerfile refid="_client_8h">Client.h</innerfile>
+    <innerfile refid="_config_8cpp">Config.cpp</innerfile>
+    <innerfile refid="_config_8h">Config.h</innerfile>
+    <innerfile refid="server_2main_8cpp">main.cpp</innerfile>
+    <innerfile refid="_message_handler_8cpp">MessageHandler.cpp</innerfile>
+    <innerfile refid="_message_handler_8h">MessageHandler.h</innerfile>
+    <innerfile refid="_web_socket_listener_8cpp">WebSocketListener.cpp</innerfile>
+    <innerfile refid="_web_socket_listener_8h">WebSocketListener.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/"/>
+  </compounddef>
+</doxygen>

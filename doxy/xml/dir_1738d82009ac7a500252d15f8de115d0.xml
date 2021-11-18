@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_1738d82009ac7a500252d15f8de115d0" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/build/server/CMakeFiles/mantrana_server.dir</compoundname>
+    <innerdir refid="dir_e646a67c52c717291306a420b4557d7d">/home/arvindbis29/Desktop/src/mantrana/build/server/CMakeFiles/mantrana_server.dir/mantrana_server_autogen</innerdir>
+    <innerfile refid="_chat_web_socket_listener_8cpp_8o_8d">ChatWebSocketListener.cpp.o.d</innerfile>
+    <innerfile refid="_client_8cpp_8o_8d">Client.cpp.o.d</innerfile>
+    <innerfile refid="_config_8cpp_8o_8d">Config.cpp.o.d</innerfile>
+    <innerfile refid="server_2_c_make_files_2mantrana__server_8dir_2main_8cpp_8o_8d">main.cpp.o.d</innerfile>
+    <innerfile refid="_message_handler_8cpp_8o_8d">MessageHandler.cpp.o.d</innerfile>
+    <innerfile refid="_web_socket_listener_8cpp_8o_8d">WebSocketListener.cpp.o.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/server/CMakeFiles/mantrana_server.dir/"/>
+  </compounddef>
+</doxygen>

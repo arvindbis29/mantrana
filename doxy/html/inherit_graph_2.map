@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,80,133"/>
+<area shape="rect" id="node2" href="$class_client.html" title="Basic client class." alt="" coords="171,5,231,32"/>
+<area shape="rect" id="node3" href="$class_config.html" title="Config class." alt="" coords="169,56,232,83"/>
+<area shape="rect" id="node4" href="$class_connection.html" title="Basic connection class." alt="" coords="153,107,248,133"/>
+<area shape="rect" id="node6" href="$class_message_handler.html" title="Get and prepare message. Can be connected." alt="" coords="135,157,266,184"/>
+<area shape="rect" id="node7" href="$class_web_socket_listener.html" title="Basic websocket listener." alt="" coords="128,208,273,235"/>
+<area shape="rect" id="node5" href="$class_chat_connection.html" title=" " alt="" coords="346,107,471,133"/>
+<area shape="rect" id="node8" href="$class_chat_web_socket_listener.html" title="Chat websocket listener." alt="" coords="321,208,496,235"/>
+</map>

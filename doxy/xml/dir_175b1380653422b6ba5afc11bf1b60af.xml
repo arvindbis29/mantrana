@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_175b1380653422b6ba5afc11bf1b60af" kind="dir">
+    <compoundname>/home/arvindbis29/Desktop/src/mantrana/client</compoundname>
+    <innerfile refid="_auth_dialog_8cpp">AuthDialog.cpp</innerfile>
+    <innerfile refid="_auth_dialog_8h">AuthDialog.h</innerfile>
+    <innerfile refid="_chat_connection_8cpp">ChatConnection.cpp</innerfile>
+    <innerfile refid="_chat_connection_8h">ChatConnection.h</innerfile>
+    <innerfile refid="_chat_window_8cpp">ChatWindow.cpp</innerfile>
+    <innerfile refid="_chat_window_8h">ChatWindow.h</innerfile>
+    <innerfile refid="_connection_8cpp">Connection.cpp</innerfile>
+    <innerfile refid="_connection_8h">Connection.h</innerfile>
+    <innerfile refid="client_2main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/client/"/>
+  </compounddef>
+</doxygen>

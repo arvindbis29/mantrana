@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e" kind="page">
+    <compoundname>md__home_arvindbis29_Desktop_src_mantrana_README</compoundname>
+    <title>Mantrana</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ulink url="https://app.travis-ci.com/jatindalal/mantrana"><image type="html" name="https://app.travis-ci.com/jatindalal/mantrana.svg?branch=main" alt="Build Status" inline="yes"></image>
+</ulink></para>
+<para>Cross platform GUI desktop chat application made with QT</para>
+<sect1 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md1">
+<title>Build</title>
+<sect2 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md2">
+<title>Dependencies</title>
+<para><itemizedlist>
+<listitem><para>Qt5 base and websocket packages</para>
+</listitem><listitem><para>Cmake version &gt;= 3.5</para>
+</listitem><listitem><para>(Optionally) Ninja</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md3">
+<title>Instructions</title>
+<para>Make sure you have a C++ compiler and cmake can find QT5 config files.</para>
+<sect3 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md4">
+<title>Using Cmake</title>
+<para><programlisting><codeline><highlight class="normal">cmake<sp/>.<sp/>-B<sp/>&lt;build-directory&gt;</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>&lt;build-directory&gt;<sp/>-j<sp/>&lt;jobs&gt;</highlight></codeline>
+</programlisting></para>
+<para>The number of jobs can be set in accordance with your cpu cores or can be ignored.</para>
+</sect3>
+<sect3 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md5">
+<title>Using Cmake + Ninja</title>
+<para><programlisting><codeline><highlight class="normal">cmake<sp/>.<sp/>-B<sp/>&lt;build-directory&gt;<sp/>-G<sp/>Ninja</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>&lt;build-directory&gt;</highlight></codeline>
+<codeline><highlight class="normal">ninja</highlight></codeline>
+</programlisting></para>
+</sect3>
+<sect3 id="md__home_arvindbis29__desktop_src_mantrana__r_e_a_d_m_e_1autotoc_md6">
+<title>Docker for server</title>
+<para><programlisting><codeline><highlight class="normal">docker<sp/>build<sp/>.<sp/>--tag<sp/>mantrana</highlight></codeline>
+<codeline><highlight class="normal">docker<sp/>run<sp/>--rm<sp/>-itd<sp/>-p<sp/>8880:8880<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-v<sp/>$(pwd)/config:/home/mantrana/config<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-u<sp/>$(id<sp/>-u):$(id<sp/>-g)<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mantrana</highlight></codeline>
+</programlisting> </para>
+</sect3>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/README.md"/>
+  </compounddef>
+</doxygen>

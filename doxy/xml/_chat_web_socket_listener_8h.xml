@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_chat_web_socket_listener_8h" kind="file" language="C++">
+    <compoundname>ChatWebSocketListener.h</compoundname>
+    <includes refid="_web_socket_listener_8h" local="yes">WebSocketListener.h</includes>
+    <includes refid="_message_handler_8h" local="yes">MessageHandler.h</includes>
+    <includedby refid="moc___chat_web_socket_listener_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_ChatWebSocketListener.cpp</includedby>
+    <includedby refid="_chat_web_socket_listener_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.cpp</includedby>
+    <includedby refid="server_2main_8cpp" local="yes">/home/arvindbis29/Desktop/src/mantrana/server/main.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h</label>
+        <link refid="_chat_web_socket_listener_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Client.h</label>
+        <link refid="_client_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Config.h</label>
+        <link refid="_config_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MessageHandler.h</label>
+        <link refid="_message_handler_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WebSocketListener.h</label>
+        <link refid="_web_socket_listener_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>QArgument</label>
+      </node>
+      <node id="9">
+        <label>QFile</label>
+      </node>
+      <node id="10">
+        <label>QJsonDocument</label>
+      </node>
+      <node id="8">
+        <label>QJsonObject</label>
+      </node>
+      <node id="4">
+        <label>QObject</label>
+      </node>
+      <node id="3">
+        <label>QSet</label>
+      </node>
+      <node id="13">
+        <label>QString</label>
+      </node>
+      <node id="5">
+        <label>QtWebSockets/QWebSocket</label>
+      </node>
+      <node id="6">
+        <label>QtWebSockets/QWebSocketServer</label>
+      </node>
+      <node id="11">
+        <label>sstream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/EWIEGA46WW/moc_ChatWebSocketListener.cpp</label>
+        <link refid="moc___chat_web_socket_listener_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/arvindbis29/Desktop/src/mantrana/build/server/mantrana_server_autogen/mocs_compilation.cpp</label>
+        <link refid="server_2mantrana__server__autogen_2mocs__compilation_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.cpp</label>
+        <link refid="_chat_web_socket_listener_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h</label>
+        <link refid="_chat_web_socket_listener_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/arvindbis29/Desktop/src/mantrana/server/main.cpp</label>
+        <link refid="server_2main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_chat_web_socket_listener" prot="public">ChatWebSocketListener</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_web_socket_listener_8h" kindref="compound">WebSocketListener.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_message_handler_8h" kindref="compound">MessageHandler.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_chat_web_socket_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_chat_web_socket_listener" kindref="compound">ChatWebSocketListener</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener" kindref="compound">WebSocketListener</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45c" kindref="member">MessageType</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45cacc65bf6bdab216cab1fb55a107dccbf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45cacc65bf6bdab216cab1fb55a107dccbf9" kindref="member">MessageDefault</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="17" refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45ca7a6a22dd62183d308c4057d83b9992bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45ca7a6a22dd62183d308c4057d83b9992bd" kindref="member">MessageConnect</ref>,</highlight></codeline>
+<codeline lineno="18" refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45ca7f0c8ff4211fdbc20cc5624b51f1b926" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45ca7f0c8ff4211fdbc20cc5624b51f1b926" kindref="member">MessageDisconnect</ref>,</highlight></codeline>
+<codeline lineno="19" refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45cace49bce1b6f2a34c3a574ccee3adc83f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1ab3dbcdafe54bb7844b78f10d1a7ea45cace49bce1b6f2a34c3a574ccee3adc83f" kindref="member">MessageAvailable</ref>,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731" kindref="member">ErrorType</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a58870be9caddff39b32f9a12812c8f81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a58870be9caddff39b32f9a12812c8f81" kindref="member">ErrorClientExists</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="25" refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a9fa5b08b59bda059954f84801757d759" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a9fa5b08b59bda059954f84801757d759" kindref="member">ErrorNameIncorrect</ref>,</highlight></codeline>
+<codeline lineno="26" refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a8b743a27b06aa9f8481005dc04e4d6bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chat_web_socket_listener_1a6153d8d6a2dfe6dc0ec97a7e0630a731a8b743a27b06aa9f8481005dc04e4d6bf" kindref="member">ErrorMessageIncorrect</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a13264a57978ac918929c7492a013f840" kindref="member">ChatWebSocketListener</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_config" kindref="compound">Config</ref><sp/>*config,<sp/>QObject<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_chat_web_socket_listener_1af82fa4fe97e731e3d28492ab563276be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1af82fa4fe97e731e3d28492ab563276be" kindref="member">checkNameChar</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QChar<sp/>&amp;c)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(c<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>c<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;z&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(c<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>c<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(c<sp/>&gt;=<sp/>L</highlight><highlight class="stringliteral">&apos;а&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>c<sp/>&lt;=<sp/>L</highlight><highlight class="stringliteral">&apos;я&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(c<sp/>&gt;=<sp/>L</highlight><highlight class="stringliteral">&apos;А&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>c<sp/>&lt;=<sp/>L</highlight><highlight class="stringliteral">&apos;Я&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(c<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>c<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;9&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal"><sp/>||<sp/>c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_chat_web_socket_listener_1aeaa8cafab779b0e9c2fd4f96854433ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1aeaa8cafab779b0e9c2fd4f96854433ea" kindref="member">checkName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;name)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name.size()<sp/>&gt;<sp/>24)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name.isEmpty())<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(std::count_if(name.cbegin(),<sp/>name.cend(),<sp/><ref refid="class_chat_web_socket_listener_1af82fa4fe97e731e3d28492ab563276be" kindref="member">ChatWebSocketListener::checkNameChar</ref>)<sp/>!=<sp/>name.size())<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="class_chat_web_socket_listener_1a594f1422b68c1b0d576170c51fa8c327" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a594f1422b68c1b0d576170c51fa8c327" kindref="member">checkMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;message)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(message.size()<sp/>&gt;<sp/>1024)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(message.isEmpty())<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/><ref refid="class_chat_web_socket_listener_1a7b4e939c5f7e045f8429dd162fb1ce5c" kindref="member">getAvailableClientNames</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93" refid="class_chat_web_socket_listener_1a68e9918a73cd50f4500136e2ea42ff79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a68e9918a73cd50f4500136e2ea42ff79" kindref="member">RegisteredSlotType</ref><sp/>=<sp/>void<sp/>(<ref refid="class_chat_web_socket_listener" kindref="compound">ChatWebSocketListener</ref>::*)(<ref refid="class_client" kindref="compound">Client</ref><sp/>*client,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QJsonObject<sp/>&amp;);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_web_socket_listener_1abd964d2d863481e9a06803bb2a866c15" kindref="member">WebSocketListener::onMessage</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1afff4a0682c4a25ac8ed6bc38563f61c8" kindref="member">onDisconnect</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_client" kindref="compound">Client</ref><sp/>*<ref refid="class_chat_web_socket_listener_1af2223dab7db5e778cd9446d713358019" kindref="member">onConnect</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1ad02f1312dfe26eebe05556833e5a630e" kindref="member">onMessageLogin</ref>(<ref refid="class_client" kindref="compound">Client</ref><sp/>*client,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QJsonObject<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a966db120af0aed3b6a9f8e358a87964e" kindref="member">onMessageMessage</ref>(<ref refid="class_client" kindref="compound">Client</ref><sp/>*client,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QJsonObject<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chat_web_socket_listener_1a277898e5828bcb758c0386951cb18d47" kindref="member">sendError</ref>(<ref refid="class_client" kindref="compound">Client</ref><sp/>*client,<sp/>qint64<sp/>errorId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;errorText,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>disconnect<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>registerSlot(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;type,<sp/><ref refid="class_chat_web_socket_listener_1a68e9918a73cd50f4500136e2ea42ff79" kindref="member">RegisteredSlotType</ref><sp/>slot)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>registeredSlots.push_back({type,<sp/>slot});</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;QPair&lt;QString,<sp/>RegisteredSlotType&gt;&gt;<sp/>registeredSlots;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/server/ChatWebSocketListener.h"/>
+  </compounddef>
+</doxygen>

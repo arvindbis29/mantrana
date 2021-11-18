@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_ui___auth_dialog" kind="class" language="C++" prot="public">
+    <compoundname>Ui_AuthDialog</compoundname>
+    <derivedcompoundref refid="class_ui_1_1_auth_dialog" prot="public" virt="non-virtual">Ui::AuthDialog</derivedcompoundref>
+    <includes refid="ui___auth_dialog_8h" local="no">ui_AuthDialog.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui___auth_dialog_1a7d4295ba3e9e1b85c5a2624a4f704853" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AuthDialog::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="26" column="12" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1ae2b5bde7cc2aff8ed0be587f0f0074ff" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* Ui_AuthDialog::groupBox</definition>
+        <argsstring></argsstring>
+        <name>groupBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="27" column="15" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1aa64f612cf89dcc1d3b407c10228b5580" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AuthDialog::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="28" column="15" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1a294d6f9e12e5868c792358a78ebc3d6b" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AuthDialog::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="29" column="12" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1af7d8a6ca432af567c8b6663217e57a87" prot="public" static="no" mutable="no">
+        <type>QDialogButtonBox *</type>
+        <definition>QDialogButtonBox* Ui_AuthDialog::buttonBox</definition>
+        <argsstring></argsstring>
+        <name>buttonBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="30" column="22" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1a9b69c961d666de48873973fd9997c61a" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AuthDialog::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="31" column="12" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___auth_dialog_1a3370438ecea4b55cf1353d507a70a07c" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AuthDialog::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="32" column="15" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui___auth_dialog_1af12e1e391c4f60e1ff73839c4b575371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_AuthDialog::setupUi</definition>
+        <argsstring>(QDialog *AuthDialog)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>AuthDialog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="34" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="34" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui___auth_dialog_1ad67211eff43ea33716e8c9dfedd9e0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_AuthDialog::retranslateUi</definition>
+        <argsstring>(QDialog *AuthDialog)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>AuthDialog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="76" column="10" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="76" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ui::AuthDialog</label>
+        <link refid="class_ui_1_1_auth_dialog"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ui_AuthDialog</label>
+        <link refid="class_ui___auth_dialog"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="23" column="1" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="24" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_ui___auth_dialog_1a3370438ecea4b55cf1353d507a70a07c" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>address</name></member>
+      <member refid="class_ui___auth_dialog_1af7d8a6ca432af567c8b6663217e57a87" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>buttonBox</name></member>
+      <member refid="class_ui___auth_dialog_1a7d4295ba3e9e1b85c5a2624a4f704853" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>error</name></member>
+      <member refid="class_ui___auth_dialog_1ae2b5bde7cc2aff8ed0be587f0f0074ff" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>groupBox</name></member>
+      <member refid="class_ui___auth_dialog_1a294d6f9e12e5868c792358a78ebc3d6b" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>label_2</name></member>
+      <member refid="class_ui___auth_dialog_1a9b69c961d666de48873973fd9997c61a" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>label_3</name></member>
+      <member refid="class_ui___auth_dialog_1aa64f612cf89dcc1d3b407c10228b5580" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>name</name></member>
+      <member refid="class_ui___auth_dialog_1ad67211eff43ea33716e8c9dfedd9e0dd" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___auth_dialog_1af12e1e391c4f60e1ff73839c4b575371" prot="public" virt="non-virtual"><scope>Ui_AuthDialog</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

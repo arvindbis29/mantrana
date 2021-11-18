@@ -1,0 +1,74 @@
+.TH "Connection" 3 "Thu Nov 18 2021" "Version 1.0.0" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Connection \- Basic connection class\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Connection\&.h>\fP
+.PP
+Inherits QObject\&.
+.PP
+Inherited by \fBChatConnection\fP\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBmessage\fP (const QString &message)"
+.br
+.ti -1c
+.RI "void \fBconnected\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisconnected\fP ()"
+.br
+.ti -1c
+.RI "void \fBerror\fP (const QString &error)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBConnection\fP (QString urlString, QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "virtual void \fBstart\fP ()"
+.br
+.ti -1c
+.RI "void \fBsend\fP (const QString &data)"
+.br
+.ti -1c
+.RI "\fB~Connection\fP () override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Basic connection class\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Connection::Connection (QString urlString, QObject * parent = \fCnullptr\fP)\fC [inline]\fP, \fC [explicit]\fP"
+
+.SS "Connection::~Connection ()\fC [inline]\fP, \fC [override]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Connection::connected ()\fC [signal]\fP"
+
+.SS "void Connection::disconnected ()\fC [signal]\fP"
+
+.SS "void Connection::error (const QString & error)\fC [signal]\fP"
+
+.SS "void Connection::message (const QString & message)\fC [signal]\fP"
+
+.SS "void Connection::send (const QString & data)\fC [inline]\fP"
+
+.SS "void Connection::start ()\fC [virtual]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

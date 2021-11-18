@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_ui_1_1_auth_dialog" kind="class" language="C++" prot="public">
+    <compoundname>Ui::AuthDialog</compoundname>
+    <basecompoundref refid="class_ui___auth_dialog" prot="public" virt="non-virtual">Ui_AuthDialog</basecompoundref>
+    <includes refid="ui___auth_dialog_8h" local="no">ui_AuthDialog.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ui::AuthDialog</label>
+        <link refid="class_ui_1_1_auth_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_AuthDialog</label>
+        <link refid="class_ui___auth_dialog"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ui::AuthDialog</label>
+        <link refid="class_ui_1_1_auth_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_AuthDialog</label>
+        <link refid="class_ui___auth_dialog"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" line="91" column="5" bodyfile="/home/arvindbis29/Desktop/src/mantrana/build/client/mantrana_client_autogen/include/ui_AuthDialog.h" bodystart="91" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_ui___auth_dialog_1a3370438ecea4b55cf1353d507a70a07c" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>address</name></member>
+      <member refid="class_ui___auth_dialog_1af7d8a6ca432af567c8b6663217e57a87" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>buttonBox</name></member>
+      <member refid="class_ui___auth_dialog_1a7d4295ba3e9e1b85c5a2624a4f704853" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>error</name></member>
+      <member refid="class_ui___auth_dialog_1ae2b5bde7cc2aff8ed0be587f0f0074ff" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>groupBox</name></member>
+      <member refid="class_ui___auth_dialog_1a294d6f9e12e5868c792358a78ebc3d6b" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>label_2</name></member>
+      <member refid="class_ui___auth_dialog_1a9b69c961d666de48873973fd9997c61a" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>label_3</name></member>
+      <member refid="class_ui___auth_dialog_1aa64f612cf89dcc1d3b407c10228b5580" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>name</name></member>
+      <member refid="class_ui___auth_dialog_1ad67211eff43ea33716e8c9dfedd9e0dd" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___auth_dialog_1af12e1e391c4f60e1ff73839c4b575371" prot="public" virt="non-virtual"><scope>Ui::AuthDialog</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

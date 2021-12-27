@@ -3,6 +3,10 @@
 Config::Config(QString name, QObject *parent): filename(std::move(name)), QObject(parent)
 {
     Config::load();
+
+    auto port = qgetenv("PORT");
+        if (port.toInt())
+            Config::webSocketPort = port.toInt();
 }
 
 QJsonObject Config::toJson() const
